@@ -4,9 +4,10 @@
   Confidential and Proprietary - Qualcomm Technologies, Inc.
 */
 
-INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','01','15','','');
+/*INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','01','15','','');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','01','17','','');
-INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','01','18','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','01','18','','');*/
+/* [BUG]-Modify-End by renjie.zhang 2024-03-18 FP5U-382 */
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','01','115','','');
 /* [BUG]-Modify-Begin by shaopan.tang 2023-07-25 FP5-1714 remove 119 as ECM */
 /*INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','01','119','','');*/
@@ -16,9 +17,10 @@ INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','01','197','','');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','01','116000','','');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','01','116117','','');
 
-INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','02','15','','');
+/*INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','02','15','','');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','02','17','','');
-INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','02','18','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','02','18','','');*/
+/* [BUG]-Modify-End by renjie.zhang 2024-03-18 FP5U-382 */
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','02','115','','');
 /* [BUG]-Modify-Begin by shaopan.tang 2023-07-25 FP5-1714 remove 119 as ECM */
 /*INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','02','119','','');*/
@@ -118,9 +120,10 @@ INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','13','197','','');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','13','116000','','');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('208','13','116117','','');
 
-INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','15','','');
+/*INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','15','','');
 INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','17','','');
-INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','18','','');
+INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','18','','');*/
+/* [BUG]-Modify-End by renjie.zhang 2024-03-18 FP5U-382 */
 INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','115','','');
 /* [BUG]-Modify-Begin by shaopan.tang 2023-07-25 FP5-1714 remove 119 as ECM */
 /*INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','119','','');*/
@@ -130,9 +133,10 @@ INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','197','
 INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','116000','','');
 INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','116117','','');
 
-INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','02','15','','');
+/*INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','02','15','','');
 INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','02','17','','');
-INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','02','18','','');
+INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','02','18','','');*/
+/* [BUG]-Modify-End by renjie.zhang 2024-03-18 FP5U-382 */
 INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','02','115','','');
 /* [BUG]-Modify-Begin by shaopan.tang 2023-07-25 FP5-1714 remove 119 as ECM */
 /*INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','02','119','','');*/

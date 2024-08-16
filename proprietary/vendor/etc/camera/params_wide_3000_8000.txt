@@ -14,7 +14,7 @@
 # fine_exposure_fusion=0
 #sharpness_enhancement_level=900
 
-
+color_enhancement=0.000,0.002
 ghost_removal_strength=3.5
 ynr_table=0,8,8,8,5,5,5,5,5,5,5
 cnr_table=0,8,8,8,4,4,4,4,4,4,4

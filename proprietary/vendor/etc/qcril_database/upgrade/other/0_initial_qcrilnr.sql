@@ -236,6 +236,9 @@ CREATE TABLE qcril_emergency_source_nw_table(MCC TEXT, NUMBER TEXT, IMS_ADDRESS 
 CREATE TABLE qcril_emergency_source_escv_iin_table(IIN TEXT, NUMBER TEXT, ESCV INTEGER, ROAM TEXT, PRIMARY KEY(IIN,NUMBER,ROAM));
 CREATE TABLE qcril_emergency_source_escv_nw_table(MCC TEXT, MNC TEXT, NUMBER TEXT, ESCV INTEGER, PRIMARY KEY(MCC,NUMBER, ESCV));
 CREATE TABLE qcril_emergency_source_mcc_mnc_table(MCC TEXT, MNC TEXT, NUMBER TEXT, IMS_ADDRESS TEXT, SERVICE TEXT, PRIMARY KEY(MCC,NUMBER,MNC));
+/*Add for FP5U-532 110 is not treat as ecc number when DT */
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('262','01','110','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('262','06','110','','');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('262','02','112','','');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('234','20','999','','');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('234','20','112','','');
