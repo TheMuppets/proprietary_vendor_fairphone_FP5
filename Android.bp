@@ -227,6 +227,13 @@ dex_import {
 }
 
 dex_import {
+	name: "uimservicelibrary",
+	owner: "fairphone",
+	jars: ["proprietary/product/framework/uimservicelibrary.jar"],
+	product_specific: true,
+}
+
+dex_import {
 	name: "com.qti.dpmframework",
 	owner: "fairphone",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
