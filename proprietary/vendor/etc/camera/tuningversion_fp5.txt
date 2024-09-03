@@ -6,7 +6,7 @@ imx800_noise=13
 imx800_video=11
 imx800_feature=27
 ======imx858=====
-imx858_aec=20
+imx858_aec=22
 imx858_awb=12
 imx858_af=2
 imx858_noise=5
