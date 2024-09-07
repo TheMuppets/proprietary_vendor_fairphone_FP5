@@ -1065,12 +1065,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
-    android.hardware.nfc@1.2-service-st \
-    c2_manifest_vendor \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.pixelworks.hardware.feature.irisfeature-service \
-    vendor.qti.gnss@4.2-service \
-    vendor.qti.hardware.servicetracker@1.2-service \
+    android.hardware.nfc@1.2-service-st.xml \
+    c2_manifest_vendor.xml \
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.pixelworks.hardware.feature.irisfeature-service.xml \
+    vendor.qti.gnss@4.2-service.xml \
+    vendor.qti.hardware.servicetracker@1.2-service.xml \
     adpl \
     adsprpcd \
     cdsprpcd \
