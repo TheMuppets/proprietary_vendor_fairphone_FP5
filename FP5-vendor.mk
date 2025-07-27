@@ -620,7 +620,7 @@ PRODUCT_PACKAGES += \
     fingerprint.lahaina \
     sensors.vl53l1_fp5 \
     vendor.qti.esepowermanager@1.1-impl \
-    vendor.qti.gnss@4.2-impl \
+    vendor.qti.gnss@4.3-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
@@ -857,8 +857,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0 \
     vendor.qti.gnss@4.0 \
     vendor.qti.gnss@4.1 \
-    vendor.qti.gnss@4.2-service \
     vendor.qti.gnss@4.2 \
+    vendor.qti.gnss@4.3-service \
+    vendor.qti.gnss@4.3 \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
@@ -1012,6 +1013,7 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc \
     libwfduibcsrcinterface \
     vendor.qti.ImsRtpService-V1-ndk \
+    vendor.qti.diaghal-V1-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
@@ -1056,7 +1058,7 @@ PRODUCT_PACKAGES += \
     c2_manifest_vendor.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.pixelworks.hardware.feature.irisfeature-service.xml \
-    vendor.qti.gnss@4.2-service.xml \
+    vendor.qti.gnss@4.3-service.xml \
     vendor.qti.hardware.servicetracker@1.2-service.xml \
     adpl \
     adsprpcd \
