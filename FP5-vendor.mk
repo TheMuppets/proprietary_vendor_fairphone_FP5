@@ -701,7 +701,6 @@ PRODUCT_PACKAGES += \
     libkeymasterdeviceutils \
     libkeymasterutils \
     liblbs_core \
-    liblearningmodule \
     libloc_api_v02 \
     libloc_api_wds \
     libloc_ril_client \
@@ -711,7 +710,6 @@ PRODUCT_PACKAGES += \
     liblqe \
     libmctfengine_stub \
     libmdsprpc \
-    libmeters \
     libminkdescriptor \
     libminksocket \
     libmmcamera_bestats \
